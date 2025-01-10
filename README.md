@@ -59,7 +59,7 @@ Para ejecutar la aplicación en modo de desarrollo:
 
 ## Dependencias principales
 
-- [http](https://pub.dev/packages/http): Para realizar llamadas a la API SWAPI
+- [GetX](https://pub.dev/packages/get): Para gestión de estados
 - [shared_preferences](https://pub.dev/packages/shared_preferences): Para persistir los datos de favoritos
 
 ## Construir la aplicación
