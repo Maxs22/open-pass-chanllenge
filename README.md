@@ -57,10 +57,24 @@ Para ejecutar la aplicación en modo de desarrollo:
 5. Los favoritos se guardarán automáticamente y persistirán incluso después de cerrar la aplicación.
 
 
+
+## Arquitectura del proyecto
+
+Este proyecto sigue los principios de Clean Architecture, que divide la aplicación en capas con responsabilidades bien definidas:
+
+- **Presentation**: Contiene los widgets de Flutter y los gestores de estado.
+- **Domain**: Contiene las entidades de negocio y los casos de uso.
+- **Data**: Maneja la obtención y almacenamiento de datos, incluyendo llamadas a API y almacenamiento local.
+
 ## Dependencias principales
 
-- [GetX](https://pub.dev/packages/get): Para gestión de estados
-- [shared_preferences](https://pub.dev/packages/shared_preferences): Para persistir los datos de favoritos
+- [get: ^4.6.6](https://pub.dev/packages/get): Para la inyección de dependencias y la navegación
+- [dartz: ^0.10.1](https://pub.dev/packages/dartz): Para programación funcional y manejo de errores
+- [equatable: ^2.0.7](https://pub.dev/packages/equatable): Para comparaciones de objetos simplificadas
+- [intl: ^0.20.1](https://pub.dev/packages/intl): Para internacionalización y formateo
+- [shared_preferences: ^2.3.5](https://pub.dev/packages/shared_preferences): Para persistencia de datos simple
+- [flutter_svg: ^2.0.17](https://pub.dev/packages/flutter_svg): Para renderizar imágenes SVG
+- [shimmer: ^3.0.0](https://pub.dev/packages/shimmer): Para efectos de carga
 
 ## Construir la aplicación
 
