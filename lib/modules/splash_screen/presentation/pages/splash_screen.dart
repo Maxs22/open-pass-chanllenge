@@ -23,16 +23,16 @@ class SplashScreen extends StatelessWidget {
               Text(
                 ConstantsStrings.titleSplash,
                 style: TextStyle(
-                  color: AppColors.primaryColor,
+                  color: AppColors.splashScreen,
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
-                  shadows: [
-                    Shadow(
-                      offset: const Offset(2, 2), 
-                      blurRadius: 4,
-                      color: AppColors.primaryColor.withOpacity(0.5),
-                    ),
-                  ],
+                  // shadows: [
+                  //   Shadow(
+                  //     offset: const Offset(2, 2), 
+                  //     blurRadius: 4,
+                  //     color: AppColors.primaryColor.withOpacity(0.5),
+                  //   ),
+                  // ],
                 ),
                 textAlign: TextAlign.center,
               ),

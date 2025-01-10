@@ -20,4 +20,7 @@ class AppColors {
       Color(0xFF64B5F6); // Azul claro (o cualquier color principal que uses)
   static const Color grisDefault =
       Color(0xFFB0B0B0); // Gris para texto y bordes
+
+  static const Color splashScreen = Color(
+      0xFF326ada); 
 }
