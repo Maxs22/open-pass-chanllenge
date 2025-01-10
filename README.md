@@ -24,7 +24,7 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
 
 1. Clona el repositorio:
    ```
-   git clone https://github.com/tu-usuario/open-pass-challenge.git
+   git clone https://github.com/Maxs22/open-pass-challenge.git
    ```
 
 2. Navega al directorio del proyecto:
